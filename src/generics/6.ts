@@ -1,8 +1,8 @@
 type Errors = {
-  email: string[];
-  firstName: string[];
-  lastName: string[];
-  phone: string[];
+  email?: string[];
+  firstName?: string[];
+  lastName?: string[];
+  phone?: string[];
 };
 
 type Form = {
@@ -15,4 +15,3 @@ type Form = {
 
 type Params = Omit<Form, 'errors'>;
 
-export default Params;

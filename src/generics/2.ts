@@ -14,4 +14,3 @@ function compare<T extends Pick<AllType, keyof AllType>>(top: T, bottom: T): All
   };
 }
 
-export default compare;
